@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/162bbb1ebd.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Skills </a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a> </li>
+                    <i class=" fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi , I am <span>Keshav Jha</span>  </h1>
+
+            </div>
+         </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>
+                    Skilled in Analytical Skills, C++, data structures and algorithms , Engineering, Communication, and Creative Writing. Strong education professional with a Bachelor of Technology - BTech focused in Electrical and Electronics Engineering from ABES Engineering College.
+                  </p>
+
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                  </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Developer</span>Developing Web Interfaces </li> 
+                        <li><span> DSA Enthusiast</span>Solved 200+ Problems  </li> 
+                       
+                    </ul>
+                 </div>
+                 <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>Mentor </span> at The Salaah Mentor Community </li> 
+                        <li><span> Management Lead </span>at GFG ABESEC  </li> 
+                       
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> Bachelors of technology </span> From ABES EC in EEE Domain </li> 
+                        <li><span> High Schooling </span> from Navyug Convent Sr. Sec. School </li> 
+                       
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- ------------------------   services -------------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend </h2>
+                    <p>I'm a front-end web developer with expertise in HTML, CSS, Bootstrap, and JavaScript. I also have a basic understanding of React. My focus is on creating visually appealing and user-friendly web interfaces.</p>
+                    <a href="#"> Learn more </a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2> Backend </h2>
+                    <p>I'm a Backend Developer proficient in Node.js, Express.js, and MongoDB. My expertise lies in building robust and efficient server-side applications. I excel at creating APIs, handling data, and ensuring smooth communication between the server and front-end.</p>
+                    <a href="#"> Learn more </a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Data Structures and Algorithms</h2>
+                    <p>I'm a Data Structures and Algorithm Specialist with a deep understanding of efficient problem-solving. My expertise extends to optimizing code, enhancing system performance, and designing algorithms that deliver scalable and elegant solutions. With a strong foundation in these fundamental concepts, I'm ready to tackle complex challenges and elevate your software projects.</p>
+                    <a href="#"> Learn More </a>
+                </div> 
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Git and Github </h2>
+                    <p>I'm an expert in Git and GitHub, with a strong command of version control and collaborative development. Proficient in branching, merging, and resolving conflicts, I ensure smooth collaboration within development teams.</p>
+                    <a href="#"> Learn More </a>
+                </div> 
+                
+            </div>
+        </div>
+     </div>
+
+
+     <!-- ---------------portfolio----------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3> Blog Website </h3>
+                        <p>
+                            With a user-friendly interface, seamless content management, and a robust database, the website offers an engaging platform for creators and readers alike.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3> Minions Talk </h3>
+                        <p>
+                            This interactive platform allows users to translate text into comical and whimsical languages, adding a touch of laughter to communication. 
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Emojee Dictionary </h3>
+                        <p>
+                            I'm the brains behind an engaging Emoji Dictionary powered by React and the useState hook. This delightful project provides users with the meanings and interpretations of various emojis, making communication more expressive and enjoyable. 
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+
+     <!-- -------------contact--------------- -->
+     <div id="contact">
+        <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>   No.2jhakeshav@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 7004483385</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    
+                </div>
+                <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Mesage" placeholder="Your Message"rows="6"></textarea>
+                   <button type="submit" name="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+                    
+                </div>
+        </div>
+     </div>
+     <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link")
+            }
+         
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab")
+                    }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script> 
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right=0;
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyimjZpzHG5QVwHsVRKDBaiFTvhPWc9LLZX9uuicoenkLMrnO9GfCpYYadljcoDcIc3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById('msg');
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset();
+        }
+            
+            )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
