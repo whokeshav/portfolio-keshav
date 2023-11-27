@@ -15,7 +15,7 @@ body{
 #header{
     width:100%;
     height: 100vh;
-    background-image: url(background.png);
+    background-image: url(background1.jpg);
     background-size:cover;
     background-position: center;
 
@@ -353,9 +353,8 @@ nav .fas {
 @media only screen and (max-width: 600px) 
 {
     #header{
-        background-image:url(images/phone-background.png) ;
-        object-fit: cover;
-        
+        background-image:url(images/phone-background.jpg);
+        background-position: contain;
     }
    .header-text{
     margin-top: 100%;
@@ -417,7 +416,6 @@ nav .fas {
     }
     .contact-right{
         margin-left:4rem;
-        flex-basis:100%;
     }
 
 }
