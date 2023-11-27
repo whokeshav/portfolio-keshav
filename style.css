@@ -353,7 +353,9 @@ nav .fas {
 @media only screen and (max-width: 600px) 
 {
     #header{
-        background-image:url(images/phone-background.png);
+        background-image:url(images/phone-background.png) ;
+        object-fit: cover;
+        
     }
    .header-text{
     margin-top: 100%;
@@ -410,10 +412,13 @@ nav .fas {
         margin-right:20px;
 
     }
-    .contact-left,.contact-right{
+    .contact-left{
         flex-basis:100%;
     }
-   
+    .contact-right{
+        margin-left:4rem;
+        flex-basis:100%;
+    }
 
 }
 #msg{
