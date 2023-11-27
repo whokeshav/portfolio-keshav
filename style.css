@@ -416,6 +416,7 @@ nav .fas {
     }
     .contact-right{
         margin-left:4rem;
+        flex-basis:100%;
     }
 
 }
